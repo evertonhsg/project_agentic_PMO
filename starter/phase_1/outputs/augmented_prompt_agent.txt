@@ -1,0 +1,7 @@
+$ python augmented_prompt_agent.py
+Prompt: What is the capital of France?
+Dear students,  
+The capital of France is Paris. It is not only the political center of the country but also a major cultural and historical hub in Europe.
+
+Knowledge source: general knowledge from the gpt-4.1-mini model (no external knowledge provided).
+Persona impact: the system prompt made the agent answer as a college professor, starting with 'Dear students,' and using an instructional tone; the facts themselves are unchanged.

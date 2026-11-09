@@ -1,0 +1,4 @@
+pandas==2.2.3
+numpy
+openai==1.78.1
+python-dotenv==1.1.0

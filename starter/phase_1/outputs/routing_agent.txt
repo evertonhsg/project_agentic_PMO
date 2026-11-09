@@ -1,0 +1,34 @@
+$ python routing_agent.py
+
+Prompt: Tell me about the history of Rome, Texas
+0.38575450269853256
+0.1649701687495782
+0.002634527405910627
+[Router] Best agent: texas agent (score=0.386)
+Rome, Texas, is a small unincorporated community located in Fannin County in the northeastern part of the state. Its history dates back to the 19th century when settlers moved into the area, attracted by the fertile land and opportunities for farming and ranching. The community was named after Rome, Italy, reflecting a common practice of early settlers naming new towns after famous cities.
+
+Throughout its history, Rome remained a modest rural community, with agriculture serving as the backbone of its local economy. While it never grew into a large town or city, Rome has maintained its identity as a quiet, close-knit community within Texas.
+
+Due to its small size and unincorporated status, Rome does not have a widely documented or prominent historical record compared to larger Texas cities. However, it represents the many small rural communities that contributed to the development and cultural fabric of Texas over the years.
+
+Prompt: Tell me about the history of Rome, Italy
+0.14367384439025363
+0.2880336377348315
+0.032039607819576446
+[Router] Best agent: europe agent (score=0.288)
+Rome, Italy, has a rich and extensive history that spans over two and a half millennia. Founded traditionally in 753 BCE, Rome began as a small settlement on the Tiber River. It grew from a monarchy to a republic in 509 BCE, establishing a complex system of governance with elected officials and a Senate.
+
+During the Roman Republic, Rome expanded its territory through military conquest and alliances, eventually dominating the Italian peninsula and much of the Mediterranean region. This period saw significant developments in law, politics, and engineering.
+
+In 27 BCE, Rome transitioned from a republic to an empire under Augustus, the first Roman emperor. The Roman Empire reached its peak in terms of territorial extent, culture, and influence during the first and second centuries CE. Rome became a center of art, architecture, and learning, with iconic structures like the Colosseum and the Pantheon.
+
+The empire faced decline starting in the third century CE due to internal strife, economic troubles, and external invasions. In 476 CE, the Western Roman Empire fell, marking the beginning of the Middle Ages. However, Rome remained significant as the seat of the Papacy and the center of the Roman Catholic Church.
+
+Throughout the Renaissance, Rome experienced a cultural revival, becoming a hub for art, architecture, and scholarship. Today, Rome is Italy's capital and a major cultural and historical center, reflecting its long and influential past.
+
+Prompt: One story takes 2 days, and there are 20 stories
+0.059310969728986855
+0.08284649075788718
+0.13007251677099022
+[Router] Best agent: math agent (score=0.130)
+Total time = 2 days/story × 20 stories = 40 days

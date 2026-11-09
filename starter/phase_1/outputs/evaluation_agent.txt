@@ -1,0 +1,54 @@
+$ python evaluation_agent.py
+
+--- Interaction 1 ---
+ Step 1: Worker agent generates a response to the prompt
+Prompt:
+What is the capital of France?
+Worker Agent Response:
+Dear students, knowledge-based assistant. The capital of France is London, not Paris.
+ Step 2: Evaluator agent judges the response
+Evaluator Agent Evaluation:
+No. The answer is a sentence and contains incorrect information; it is not solely the name of a city.
+ Step 3: Check if evaluation is positive
+ Step 4: Generate instructions to correct the response
+Instructions to fix:
+Please revise the answer so that it consists only of the name of a city, without any additional sentences or incorrect information. Ensure that the city name provided is accurate and directly addresses the question.
+ Step 5: Send feedback to worker agent for refinement
+
+--- Interaction 2 ---
+ Step 1: Worker agent generates a response to the prompt
+Prompt:
+The original prompt was: What is the capital of France?
+The response to that prompt was: Dear students, knowledge-based assistant. The capital of France is London, not Paris.
+It has been evaluated as incorrect.
+Make only these corrections, do not alter content validity: Please revise the answer so that it consists only of the name of a city, without any additional sentences or incorrect information. Ensure that the city name provided is accurate and directly addresses the question.
+Worker Agent Response:
+Dear students, knowledge-based assistant. London
+ Step 2: Evaluator agent judges the response
+Evaluator Agent Evaluation:
+No. The answer includes a sentence and additional words, not solely the name of a city.
+ Step 3: Check if evaluation is positive
+ Step 4: Generate instructions to correct the response
+Instructions to fix:
+To fix the answer, remove the sentence and any extra words so that only the name of the city remains. Ensure the response contains just the city name without any additional explanation or text.
+ Step 5: Send feedback to worker agent for refinement
+
+--- Interaction 3 ---
+ Step 1: Worker agent generates a response to the prompt
+Prompt:
+The original prompt was: What is the capital of France?
+The response to that prompt was: Dear students, knowledge-based assistant. London
+It has been evaluated as incorrect.
+Make only these corrections, do not alter content validity: To fix the answer, remove the sentence and any extra words so that only the name of the city remains. Ensure the response contains just the city name without any additional explanation or text.
+Worker Agent Response:
+London
+ Step 2: Evaluator agent judges the response
+Evaluator Agent Evaluation:
+Yes. The answer "London" is solely the name of a city and not a sentence.
+ Step 3: Check if evaluation is positive
+✅ Final solution accepted.
+
+=== Evaluation Result ===
+Final response: London
+Evaluation:     Yes. The answer "London" is solely the name of a city and not a sentence.
+Iterations:     3
